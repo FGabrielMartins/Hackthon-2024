@@ -1,0 +1,95 @@
+.container {
+    text-align: center;
+}
+
+.titleApp {
+    color: black;
+}
+
+.title, .sub-title {
+    color: rgb(69, 107, 11);
+}
+
+/* Estilos dos botões principais */
+.btn-green, .btn-yellow, .btn-red {
+    width: 200px;
+    margin: 20px auto;
+    display: block;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.btn-green {
+    background-color: green;
+    color: white;
+}
+
+.btn-yellow {
+    background-color: rgb(115, 115, 10);
+    color: white;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+}
+
+/* Container para alinhar imagem e botão na mesma linha */
+.f1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+/* Estilo dos botões de cadastro */
+.cad1 {
+    background-color: gray;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    flex-grow: 1;
+    text-align: center; /* Centraliza o texto dentro do botão */
+}
+
+.containerEnd {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.titleModal1 {
+    margin-top: 40px;
+    color: green;
+}
+
+.modal1 {
+    display: block;
+}
+
+.confirm {
+    margin: 25px;
+    border-radius: 25px;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: green;
+    color: white;
+}
+
+.cancel {
+    border-radius: 25px;
+    font-size: 20px;
+    padding-left: 105px;
+    padding-right: 105px;
+    background-color: red;
+    color: white;
+}
